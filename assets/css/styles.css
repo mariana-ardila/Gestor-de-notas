@@ -297,7 +297,7 @@ img {
 
 /* Sección Testimonial */
 .testimonial {
- height: 150px;
+ height: 120px;
  color: #f0f7f7; 
  background-color: #bbf5f569;
  border: 1px solid rgba(255, 255, 255, 0.815);
@@ -307,10 +307,11 @@ img {
  padding: 0.05rem;
  margin:  0;
  font-style: orbitron;
+ text-align: center;
 }
 .testimonial p { margin-bottom: 1rem; }
 .testimonial span { font-weight: bold; 
-  color: rgb(250, 26, 149); 
+  color: #00B785;
   height: 100px;
   text-decoration: none;
      
@@ -321,7 +322,7 @@ img {
   background: #636669; 
   color: #fff; 
   text-align: center; 
-  padding: 0rem 1rem; 
+  padding: 0.3rem 1rem; 
   border-radius: 10px;
 }
 .cta h2 { font-size: 2rem; margin-bottom: 3rem; }

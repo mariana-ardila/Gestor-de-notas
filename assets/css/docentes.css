@@ -21,8 +21,6 @@ body {
   align-items: center;
   box-shadow: 0.2rem 0.2rem 1rem rgb(153, 151, 151);
   position: fixed;
-    z-index: 4;
-
 }
 .header__evalix {
   height: 110px;
@@ -37,7 +35,6 @@ body {
   box-shadow: 0 0 20px rgba(19, 184, 184, 0.69);
   border-radius: 20px;
 }
-
 .header__sesion {
   height: 100px; /* Ajusta la altura, no el ancho */
   max-width: 100%; /* Evita que se desborde */
