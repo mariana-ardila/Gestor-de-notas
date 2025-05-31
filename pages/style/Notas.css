@@ -68,6 +68,8 @@ body {
   background-color: aliceblue;
   font-size: 0.7rem;
   font-weight: bold;
+  text-decoration: none;
+  color: black;
 }
 .textsesion:hover {
   background-color: #00b78625;

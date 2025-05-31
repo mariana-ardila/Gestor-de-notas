@@ -244,6 +244,11 @@ img {
       100% { background-position: 0 0; }
   }  
 
+  .container-main{
+    display: flex;
+    flex-direction: column;
+gap: 6.5rem;
+ }
 
 
         /* Contenedor principal */
@@ -316,7 +321,7 @@ img {
             display: block;
             width: 100%;
             padding: 0.9rem 1.5rem;
-            background-color: #08edf5; 
+            background-color:#00b785; 
             color: #ffffff;
             border: none;
             border-radius: 6px;
@@ -336,11 +341,12 @@ img {
 
         /* Estilos del pie de página simple */
         .simple-footer {
-            background-color: #1f2b38; /* Un poco más oscuro que el header */
-            color: #bdc3c7; /* Gris claro */
+background-color:#00b785;  
+          color: #ffffff; /* Gris claro */
             text-align: center;
-            padding: 1.5rem 1rem;
+            padding: 1.5rem 0.3rem;
             font-size: 0.9rem;
+        
         }
 
         /* Para hacer el formulario un poco más responsivo en pantallas pequeñas */
@@ -377,7 +383,7 @@ img {
         <a class=" nav__a neon-info-hi"  href="/pages main/registro.html">Login</a> 
       </div>      
     </nav>
-
+<div class="container-main">
     <main class="main-content">
         <div class="contact-card">
             <h2>Envíanos un Mensaje</h2>
@@ -407,6 +413,6 @@ img {
     <footer class="simple-footer">
         <p>&copy; 2025 Evalix. Todos los derechos reservados.</p>
     </footer>
-
+</div>
 </body>
 </html>
